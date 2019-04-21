@@ -1,0 +1,244 @@
+ @media screen and (max-width: 767px) {
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_paginate {
+    float: none;
+    text-align: center;
+  }
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_paginate {
+    margin-top: 0.5em;
+  }
+}
+
+@keyframes quantumWizPaperInputRemoveUnderline { 0% {
+-webkit-transform:scaleX(1);
+transform:scaleX(1);
+opacity:1
+}
+to { -webkit-transform: scaleX(1); transform: scaleX(1); opacity: 0 }
+}
+@-webkit-keyframes quantumWizPaperInputRemoveUnderline { 0% {
+-webkit-transform:scaleX(1);
+transform:scaleX(1);
+opacity:1
+}
+to { -webkit-transform: scaleX(1); transform: scaleX(1); opacity: 0 }
+}
+@keyframes quantumWizPaperInputAddUnderline { 0% {
+-webkit-transform:scaleX(0);
+transform:scaleX(0)
+}
+to { -webkit-transform: scaleX(1); transform: scaleX(1) }
+}
+@-webkit-keyframes quantumWizPaperInputAddUnderline { 0% {
+-webkit-transform:scaleX(0);
+transform:scaleX(0)
+}
+to { -webkit-transform: scaleX(1); transform: scaleX(1) }
+}
+
+@media (min-width:360px) and (max-width:360px){
+	.tileView #arrangeDashBoard > li, .showRightPanel .tileView #arrangeDashBoard > li{
+		width:100%;	
+	}
+}
+@media (min-width:480px){
+	.tileView #arrangeDashBoard > li, .showRightPanel .tileView  #arrangeDashBoard > li{
+		width:50%;	
+	}
+}
+@media (min-width:768px){
+	.tileView #arrangeDashBoard > li{
+		width:33.3%;
+	}
+	.showRightPanel .tileView  #arrangeDashBoard > li{
+		width:50%;	
+	}
+}
+@media (min-width:996px){
+	.tileView #arrangeDashBoard > li{
+		width:25%;
+	}
+	.showRightPanel .tileView  #arrangeDashBoard > li{
+		width:33.3%;	
+	}
+}
+@media (min-width:1200px){
+	.tileView #arrangeDashBoard > li{
+		width:20%;
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:25%;	
+	}
+}
+@media (min-width:1440px){
+	.tileView #arrangeDashBoard > li{
+		width:16.6%;
+	}
+	.showRightPanel .tileView  #arrangeDashBoard > li{
+		width:20%;	
+	}
+}
+@media (min-width:1600px){
+	.tileView #arrangeDashBoard > li{
+		width:12.5%;
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:16.6%;	
+	}
+}
+@media (min-width:1750px){
+	.tileView #arrangeDashBoard > li{
+		width:12.5%;
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:16.6%;	
+	}
+}
+@media (min-width:1920px){
+	.tileView #arrangeDashBoard > li{
+		width:14.2%;
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:16.6%;	
+	}
+	
+}
+@media (min-width:2250px){
+	.tileView #arrangeDashBoard > li, .showRightPanel .tileView  #arrangeDashBoard > li{
+		width:10%;	
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:12.5%;	
+	}
+}
+@media (min-width:2560px){
+	.tileView #arrangeDashBoard > li,  .showRightPanel .tileView  #arrangeDashBoard > li{
+		width:8.3%;	
+	}
+	.showRightPanel .tileView #arrangeDashBoard > li{
+		width:10%;	
+	}
+	
+}
+/* responsive  */
+
+@media (max-width:996px){
+	.leftMenu{
+		margin-left:15px;	
+	}
+	.leftMenu .nav-pills > li > a{
+		padding:5px 10px 12px 10px	
+	}
+	.isLSGri.listViewd .dashDetails > div:nth-child(4){
+		display:none;	
+	}
+	.isLsFiles.listView .dashDetails > div:nth-child(4),
+	.isLsFiles.listView .dashDetails > div:nth-child(3){
+		display:none;	
+	}
+	.listView.members_per .dashDetails > div:nth-child(2){
+		width:50%;	
+	}
+	.isLsFiles.listView .dashDetails > div:nth-child(2){
+		width:80%;	
+	}
+	.isLsMember .listView .dashDetails > div:nth-child(4),
+	.isLsMember .listView .dashDetails > div:nth-child(3){
+		display:none;	
+	}
+	section.listView.isLSGrid .dashDetails > div:nth-child(4){
+		display:none;	
+	}
+	.isDashboardView  .headerBelowTabOverlap.overHeader{
+		display:block;
+		position:static;
+		margin:0;
+		padding:0;	
+	}
+	
+		
+}
+@media (max-width:768px){
+	.leftMenu .nav-pills > li > a > span{
+		font-size:0;	
+		text-indent:-99999px;
+	}
+	.leftMenu .nav-pills > li > a{
+		padding:5px 10px 12px 10px;	
+	}
+	.leftMenu .nav-pills > li > a .fa{
+		margin-right:0;	
+	}
+	#vizrulogo{
+		overflow:hidden;
+	}
+	.leftMenu .nav-pills > li{
+		position:static;	
+	}
+	.dropDownMenu {
+		max-width:100%;
+		left:0;
+		right:0;
+		box-sizing:border-box;
+	}
+	div.leftMenu .nav>li.current>a:before, .leftMenu .nav>li:hover>a:before{
+		visibility:hidden;
+		display:none;	
+	}
+	.leftMenu .nav > li.current > a:after, .leftMenu .nav > li:hover > a:after{
+		left:10px;
+		right:10px;
+	}
+	.showRightPanel .contentInner{
+		padding-right:10px;
+	}
+	.searchHeader input{
+		max-width:80px;
+		transition:all .3s ease;
+	}
+	.searchHeader input:focus{
+		max-width:300px;
+	}
+}
+@media (max-width:576px){
+	div.headerBelowButtonLeft ul li:first-child{
+		margin-right:5px;	
+	}
+	.rightMenu .nav-pills > li > a{
+		font-size:1.5em;	
+	}
+	.leftMenu .nav-pills > li > a .fa{
+		font-size:1.5em;	
+	}
+	.headerBelowButtonLeft .nav > li > a.dhd_name{
+		width:100px;	
+	}
+}
+@media (max-width:400px){
+	.rightMenu {
+		display:none;	
+	}
+	
+}
+
+@media (min-width:1440px){
+	.showRightPanel .contentInner {
+		width: calc(100vw - 25%);
+	}
+	aside.rightPanel {
+    	width:25%;
+		right:-26%;
+	}
+	.largeRightPanel aside.rightPanel {
+    	width:50%;
+		right:-50%;
+	}
+	.messagePanel .listView .tile-item-wraper.staticItem.f .overButtons, .searchPanel .listView .tile-item-wraper.staticItem.f .overButtons, .showTagPanel .listView .tile-item-wraper.staticItem.f .overButtons {
+		right:30%;
+	}
+	
+		
+}

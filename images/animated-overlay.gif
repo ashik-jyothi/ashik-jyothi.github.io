@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Error</title>
+</head>
+<body>
+	<h1>201 Internal Server Error</h1>
+	<hr>
+	<p>Controller path not found. Please check url</p>
+   <p>
+      <b>File:</b> /var/www/html/app-live/v1-web-app/sys/http/Application.php
+      <br>
+      <b>Line:</b> 129
+   </p>
+</body>
+</html>

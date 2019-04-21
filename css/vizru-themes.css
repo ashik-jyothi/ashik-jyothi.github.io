@@ -1,0 +1,612 @@
+/* --------------  Vizru Themes   ------------ */ 
+
+/* Black Theme */
+body.viz-black-sidebar-skin header{
+	background-color: #0f1824;
+}
+body.viz-black-sidebar-skin .pageIconsleftnav > li > a .iconImage,
+body.viz-black-sidebar-skin header .viz-sidebar-bottom-navs .nav-pills > li#settingsLinks > a > i,
+body.viz-black-sidebar-skin .viz-sidebar-bottom-navs .nav-pills > li > a,
+body.viz-black-sidebar-skin .leftFixedBlockMenu .dropdown-menu.multi-level > li > a .leftmenu-icon{
+	color: #9aadb8;
+}
+body.viz-black-sidebar-skin a.debugThis{
+    color: #0f1824;
+}
+body.viz-black-sidebar-skin .pageIconsleftnav > li > a span.viz-sidebar-nav-label {
+	color: #d5dce0;
+}
+body.viz-black-sidebar-skin .pageIconsleftnav > li > a:hover,
+body.viz-black-sidebar-skin .pageIconsleftnav > li:hover > a,
+body.viz-black-sidebar-skin .leftFixedBlockMenu .dropdown-menu.multi-level > li > a:hover,
+body.viz-black-sidebar-skin .leftFixedBlockMenu .dropdown-menu.multi-level > li.open > a{
+	background-color: #303847 !important;
+}
+body.viz-black-sidebar-skin .leftFixedBlockMenu .dropdown-menu.multi-level > li.dropdownSubmenu.open .dropdown-toggle:before{display: none;}
+body.viz-black-sidebar-skin header .rightMenu.viz-sidebar-bottom-navs .nav-pills > li > a.circleHoverItem-after:hover:after,
+body.viz-black-sidebar-skin #headerWrap header .circleHoverItem-after:hover:after,
+body.viz-black-sidebar-skin #headerWrap header .circleHoverItem-before:hover:before{
+	background-color:#303847;
+}
+body.viz-sidebar .sidebar-collapsible-icon{
+	color: #6c8194;
+}
+
+
+
+/* Viz sidebar common styles */
+
+body.viz-sidebar .logoDrop.rightMenu{
+	position: relative;
+	width: 100%;
+	padding-left: 16px;
+}
+body.viz-sidebar header,
+body.viz-sidebar .pageIconsleftnav{
+	-webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+body.viz-sidebar #vizrulogo,
+body.viz-sidebar .pageIconsleftnav > li > a {
+	width: 100%;
+}
+body.viz-sidebar .pageIconsleftnav > li {
+    overflow: hidden;
+}
+body.viz-sidebar .pageIconsleftnav > li > a{
+    display: flex;
+    padding-left: 16px;
+    align-items: center;
+    width: 240px;
+}
+body.viz-sidebar .vizru-logo{
+	margin-top: 20px;
+	height: auto;
+	display: flex;
+}
+body.viz-sidebar .vizru-logo-large,
+body.viz-sidebar .vizru-logo-small  {
+	max-height: none;
+	height: 23px;
+}
+body.viz-sidebar .vizru-logo-large {
+	max-width: 103px;
+	/* -webkit-animation: opacityAnim 0.8s linear;
+  -moz-animation: opacityAnim 0.8s linear;
+  -o-animation: opacityAnim 0.8s linear;
+  animation: opacityAnim 0.8s linear; */
+}
+body.viz-sidebar .vizru-logo-small {
+    max-width: 17px;
+}
+body.viz-sidebar .pageIconsleftnav > li > a .viz-sidebar-nav-label{
+	text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 14pt;
+}
+header .rightMenu.viz-sidebar-bottom-navs .nav-pills > li{
+	width: auto;
+    margin-right: 12px;
+    display: flex;
+    float: left;
+    clear: inherit;
+    align-items: center;
+}
+header .rightMenu.viz-sidebar-bottom-navs .menu.nav{
+	justify-content: inherit;
+    flex-direction: inherit;
+	display: flex;
+	width: auto;
+	
+}
+header .rightMenu.viz-sidebar-bottom-navs{
+	width: 100%;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+body.viz-sidebar .pageIconsleftnav > li > a span.iconImage{
+	font-size: 20px;
+	margin-right: 16px;
+	display: flex;
+    align-items: center;
+    transition: all .4s ease-in-out;
+}
+body.viz-sidebar .leftFixedBlockMenu .dropdown-menu.multi-level > li > a{
+	display: flex;
+    padding: 0;
+    padding-left: 16px;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    color: #4e574e;
+    font-size: 25px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+    line-height: 31px;
+}
+body.viz-sidebar .leftFixedBlockMenu .dropdown-menu.multi-level > li > a .leftmenu-icon {
+    font-size: 20px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+body.viz-sidebar .leftFixedBlockMenu .leftBlkSpan{
+	width: auto;
+    display: block;
+	text-align: left;
+	letter-spacing: 0.03em;
+	font-size: 13px;
+	color: #d5dce0;
+    margin-left: 0px;
+    height: auto;
+    line-height: normal;
+}
+header .rightMenu.viz-sidebar-bottom-navs .nav-pills > li > a{
+	width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .rightMenu.viz-sidebar-bottom-navs .nav-pills > li > a i{
+	left: auto;
+	top: auto;
+}
+body.viz-sidebar .sidebar-collapsible-icon{
+	display: flex;
+    align-items: center;
+	margin-right: 15px;
+	font-size: 20px;
+	width: 36px;
+	height: 36px;
+	justify-content: center;
+	cursor: pointer;
+}
+body..viz-sidebar .rightMenu .dropup .dropdown-menu {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+}
+
+.viz-sidebar .logoDrop.rightMenu .dropdown-menu {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+}
+@-webkit-keyframes opacityAnim {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes opacityAnim {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes opacityAnim {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes opacityAnim {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+body.viz-sidebar .dropdown-submenu span.lsName{
+    float: inherit;
+    margin-left: 37px;
+    width: calc(100% - 54px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+body.viz-sidebar .leftFixedBlockMenu{
+    top: 9px;
+    left: 0;
+    position: fixed;
+    z-index: 1223;
+}
+body.viz-sidebar-small .contentInner>.blockUI.blockOverlay,
+body.viz-sidebar-small #headerBelow,
+body.viz-sidebar-small .logoDrop.rightMenu .dropdown-menu,
+body.viz-sidebar-small .dashNewTxtUp,
+body.viz-sidebar-small .menuCustomDrop,
+body.viz-sidebar-small .headerBelowTabOverlap.overHeader,
+body.viz-sidebar-small .wf-new-topbar{
+    transition: all 0.6s ease;
+}
+body.viz-sidebar-large .contentInner>.blockUI.blockOverlay,
+body.viz-sidebar-large #headerBelow,
+body.viz-sidebar-large .logoDrop.rightMenu .dropdown-menu,
+body.viz-sidebar-large .dashNewTxtUp,
+body.viz-sidebar-large .menuCustomDrop,
+body.viz-sidebar-large .headerBelowTabOverlap.overHeader,
+body.viz-sidebar-large .wf-new-topbar,
+.wrkFlowBtnGrp, .editTourTitleOver  {
+    transition: all .4s ease;
+}
+body.viz-sidebar .leftFixedBlockMenu .wrkflowSubmenu {
+    top: 0;
+}
+body.viz-sidebar .leftFixedBlockMenu ul li {
+    width: 100%;
+}
+body.viz-sidebar .leftFixedBlockMenu ul li .wrkflowSubmenu .wrkflowSubmenuScroll > li {
+    width: 315px;
+}
+body.viz-sidebar header .rightMenu.viz-sidebar-bottom-navs .menu.nav li .dropdown-menu:before{
+    display: none;
+}
+body.viz-sidebar header .rightMenu.viz-sidebar-bottom-navs .menu.nav li .dropdown-menu > ul > li a {
+    padding: 12px;
+}
+.onBody-dropdown.settingsDrop > ul > li > a,
+.onBody-dropdown.tourDrop > ul > li > a{
+    padding: 12px;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    clear: both;
+    transition: all .5s ease;
+    color: #777576;
+}
+.onBody-dropdown.settingsDrop > ul > li > a i,
+.onBody-dropdown.tourDrop > ul > li > a i {
+    font-size: 1.3em;
+    margin: 0px 10px 0 5px;
+    float: left;
+    width: 20px;
+    text-align: center;
+    position: relative;
+}
+.onBody-dropdown.settingsDrop,
+.onBody-dropdown.tourDrop{
+    top: auto !important;
+}
+.onBody-dropdown.settingsDrop > ul > li > a:hover,
+.onBody-dropdown.tourDrop > ul > li > a:hover {
+    background: #e9e9e9;
+}
+.onBody-dropdown.settingsDrop > ul > li a,
+.onBody-dropdown.tourDrop > ul > li a {
+    padding: 12px;
+}
+body.viz-sidebar .onBody-dropdown.settingsDrop,
+body.viz-sidebar .onBody-dropdown.tourDrop{
+    bottom: 52px !important;
+}
+.onBody-dropdown .shortcuts li {
+    display: inline-block;
+    padding: 0 2px;
+    white-space: nowrap;
+    width: auto;
+    min-width: auto;
+    float: none;
+    clear: none;
+}
+.onBody-dropdown .shortcuts li a {
+    background: #fafafa;
+    border: solid 1px #f1f1f1;
+    display: inline-block;
+    width: auto;
+    min-width: auto;
+}
+.onBody-dropdown .shortcuts li a#createTour {
+    padding: 8px 48px;
+}
+.onBody-dropdown .shortcuts li a:hover {
+    background: hsla( 158, 95%, 39%, 1);
+    color: #fff;
+}
+
+body.viz-sidebar ul.tourlist.dropdownBelow:empty,
+body.viz-sidebar #tour:hover .dropdown-menu:empty{
+    display: none;
+}
+/* Viz sidebar common styles ends*/
+
+
+
+
+
+
+
+
+
+/* Small sidebar */
+body.viz-sidebar-small header,
+body.viz-sidebar-small .pageIconsleftnav{
+	width: 50px;
+}
+body.viz-sidebar-small .contentInner>.blockUI.blockOverlay,
+body.viz-sidebar-small #contents > .blockUI.blockOverlay{
+	left: 50px !important;
+}
+body.viz-sidebar-small #headerBelow,
+body.viz-sidebar-small .logoDrop.rightMenu .dropdown-menu,
+body.viz-sidebar-small .dashNewTxtUp,
+body.viz-sidebar-small .menuCustomDrop{
+    left: 50px;
+}
+body.viz-sidebar-small .contentInner {
+	padding-left: 50px;
+}
+body.viz-sidebar-small .pageIconsleftnav{
+	height: calc(100vh - 200px);
+}
+body.viz-sidebar-small .vizru-logo-large{
+	display: none;
+}
+body.viz-sidebar-small .pageIconsleftnav > li > a span.viz-sidebar-nav-label{
+    /* display: none; */
+    visibility: hidden;
+    opacity:0;
+    height: 0;
+}
+body.viz-sidebar-small .leftFixedBlockMenu .leftBlkSpan{
+	width: 0;
+    overflow: hidden;
+    height: 0;
+}
+body.viz-sidebar-small header .rightMenu.viz-sidebar-bottom-navs .menu.nav,
+body.viz-sidebar-small header .rightMenu.viz-sidebar-bottom-navs {
+	display: block;
+	transition : all 0.8s ease-out;
+}
+body.viz-sidebar-small header .rightMenu.viz-sidebar-bottom-navs{
+	padding-left: 0;
+}
+body.viz-sidebar-small header .rightMenu.viz-sidebar-bottom-navs .nav-pills > li {
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+	justify-content: center;
+	margin-bottom: 6px;
+}
+body.viz-sidebar-small .sidebar-collapsible-icon{
+    margin-right: 0;
+    justify-content: center;
+    cursor: pointer;
+	width: 100%;
+}
+body.viz-sidebar-small .dashboardToolbar{
+	left: 73px;
+	transition : ease all 0.5s;
+}
+/* body.viz-sidebar-small .leftFixedBlockMenu{
+	left: -65px;
+} */
+body.viz-sidebar-small .leftFixedBlockMenu .dropdown-menu.multi-level {
+	width: 50px;
+}
+body.viz-sidebar-small .headerBelowTabOverlap.overHeader {
+    left: 272px;
+}
+body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap {
+    width: calc(100vw - 980px);
+    overflow-x: inherit;
+    overflow-y: hidden;
+    position: relative;
+    height: 28px;
+}
+body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap:hover:after{
+    display: none;
+}
+body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap ul {
+    width: 100%;
+    overflow-x: auto;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+    height: 28px;
+    overflow-y: hidden;
+    padding-right: 18px;
+}
+@-moz-document url-prefix() {
+    body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap {
+        height: 35px;
+    }
+    body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap ul {
+        height: 40px;
+    }
+  }
+body.viz-sidebar-small .filterPrimary.dashPrimFltrWrap ul::-webkit-scrollbar {
+    height: 3px !important;
+}
+body.viz-sidebar-small .dashToolDropDown {
+    left: 138px;
+}
+body.viz-sidebar-small.fullScreenPanel.showRightPanel.dashBoardpage aside.rightPanel {
+    width: calc(100% - 50px);
+}
+body.viz-sidebar-small .leftFixedBlockMenu .wrkflowSubmenu {
+    left: 50px !important;
+}
+body.viz-sidebar-small .rightMenu .dropup .dropdown-menu {
+    left: 50px;
+}
+body.viz-sidebar-small .wf-new-topbar{
+	left: 120px;
+}
+body.viz-sidebar-small .onBody-dropdown.settingsDrop,
+body.viz-sidebar-small .onBody-dropdown.tourDrop{
+    bottom: 62px !important;
+    left: 50px !important;
+    height: auto !important;
+    max-height: none !important;
+}
+body.viz-sidebar-small #ls div.tileaction .icon {
+    transition : ease all 0.5s;
+}
+/* Small sidebar ends */
+
+
+
+/* Large sidebar */
+body.viz-sidebar-large header,
+body.viz-sidebar-large .pageIconsleftnav{
+	width: 240px;
+}
+body.viz-sidebar-large .contentInner>.blockUI.blockOverlay,
+body.viz-sidebar-large #contents > .blockUI.blockOverlay{
+    left: 240px !important;
+}
+body.viz-sidebar-large .contentInner {
+	padding-left: 240px;
+}
+body.viz-sidebar-large #headerBelow,
+body.viz-sidebar-large .logoDrop.rightMenu .dropdown-menu,
+body.viz-sidebar-large .dashNewTxtUp,
+body.viz-sidebar-large .menuCustomDrop{
+    left: 240px;
+}
+body.viz-sidebar-large .leftFixedBlockMenu .dropdown-menu.multi-level {
+	width: 240px;
+}
+body.viz-sidebar-large .vizru-logo-small{
+	display: none;
+}
+body.viz-sidebar-large .pageIconsleftnav > li > a .viz-sidebar-nav-label{
+    width: 100%;
+    padding-right: 6px;
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear, max-height 0.5s;
+}
+/* body.viz-sidebar-large .leftFixedBlockMenu{
+	left: -255px;
+} */
+body.viz-sidebar-large .leftFixedBlockMenu ul li {
+    width: 100%;
+}
+body.viz-sidebar-large .sidebar-collapsible-icon i{
+	transform: rotate(180deg);
+}
+body.viz-sidebar-large .sidebar-collapsible-icon{
+	-webkit-animation: opacityAnim 0.8s linear;
+  -moz-animation: opacityAnim 0.8s linear;
+  -o-animation: opacityAnim 0.8s linear;
+  animation: opacityAnim 0.8s linear;
+}
+body.viz-sidebar-large .dashboardToolbar{
+    left: 264px;
+    transition : ease all 0.5s;
+}
+body.viz-sidebar-large .headerBelowTabOverlap.overHeader {
+    left: 446px;
+}
+body.viz-sidebar-large .filterPrimary.dashPrimFltrWrap {
+    width: calc(100vw - 894px);
+}
+body.viz-sidebar-large .dashToolDropDown {
+    left: 329px;
+}
+body.viz-sidebar-large.fullScreenPanel.showRightPanel.dashBoardpage aside.rightPanel {
+    width: calc(100% - 240px);
+}
+body.viz-sidebar-large .leftFixedBlockMenu .wrkflowSubmenu {
+    left: 240px !important;
+}
+body.viz-sidebar-large .wf-new-topbar{
+	left: 308px;
+}
+body.viz-sidebar-large li#settingsLinks.open .dropdown-menu,
+body.viz-sidebar-large li#support.open .dropdown-menu{
+    position: fixed;
+    bottom: 50px;
+}
+body.viz-sidebar-large li#settingsLinks.open .dropdown-menu {
+    left: 86px;
+ }
+ body.viz-sidebar-large li#support.open .dropdown-menu {
+    left: 40px;
+ }
+
+ body.viz-sidebar-large li#support.open .dropdown-menu {
+    left: 40px;
+ }
+
+ body.viz-sidebar-large  .wrkFlowBtnGrp, body.viz-sidebar-large  .editTourTitleOver {left: 460px; }
+ body.viz-sidebar-large .headerBelowButtonLeft .nav > li > a.dhd_name{ }
+ body.viz-sidebar-large #ls div.tileaction .icon {
+    margin-left: 260px;
+    transition : ease all 0.5s;
+}
+body.viz-sidebar-large .onBody-dropdown.settingsDrop {
+    left: 82px !important;
+    height: auto !important;
+    max-height: none !important;
+}
+body.viz-sidebar-large .onBody-dropdown.tourDrop {
+    left: 35px !important;
+    height: auto !important;
+    max-height: none !important;
+}
